@@ -177,7 +177,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Copper_Incoherent.packing_factor = '1'
     Copper_Incoherent.unit_cell_volume = '100'
     Copper_Incoherent.interact_fraction = '-1'
-    Copper_Incoherent.init = '"init"'
     
     # Comp instance Copper_Powder, placement and parameters
     Copper_Powder = instr.add_component('Copper_Powder','Powder_process')
@@ -195,7 +194,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Copper_Powder.Strain = '0'
     Copper_Powder.interact_fraction = '-1'
     Copper_Powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Copper_Powder.init = '"init"'
     
     # Comp instance Copper, placement and parameters
     Copper = instr.add_component('Copper','Union_make_material')
@@ -207,7 +205,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Copper.refraction_sigma_coh = '0'
     Copper.refraction_weight = '0'
     Copper.refraction_SLD = '-1500'
-    Copper.init = '"init"'
     
     # Comp instance LiC6_incoherent, placement and parameters
     LiC6_incoherent = instr.add_component('LiC6_incoherent','Incoherent_process')
@@ -218,7 +215,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiC6_incoherent.packing_factor = '1'
     LiC6_incoherent.unit_cell_volume = '100'
     LiC6_incoherent.interact_fraction = '-1'
-    LiC6_incoherent.init = '"init"'
     
     # Comp instance LiC6_fake_powder, placement and parameters
     LiC6_fake_powder = instr.add_component('LiC6_fake_powder','Powder_process')
@@ -236,7 +232,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiC6_fake_powder.Strain = '0'
     LiC6_fake_powder.interact_fraction = '-1'
     LiC6_fake_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    LiC6_fake_powder.init = '"init"'
     
     # Comp instance LiC6, placement and parameters
     LiC6 = instr.add_component('LiC6','Union_make_material')
@@ -248,7 +243,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiC6.refraction_sigma_coh = '0'
     LiC6.refraction_weight = '0'
     LiC6.refraction_SLD = '-1500'
-    LiC6.init = '"init"'
     
     # Comp instance POE_incoherent, placement and parameters
     POE_incoherent = instr.add_component('POE_incoherent','Incoherent_process')
@@ -259,7 +253,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     POE_incoherent.packing_factor = '1'
     POE_incoherent.unit_cell_volume = '100'
     POE_incoherent.interact_fraction = '-1'
-    POE_incoherent.init = '"init"'
     
     # Comp instance Electrolyte, placement and parameters
     Electrolyte = instr.add_component('Electrolyte','Union_make_material')
@@ -271,7 +264,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Electrolyte.refraction_sigma_coh = '0'
     Electrolyte.refraction_weight = '0'
     Electrolyte.refraction_SLD = '-1500'
-    Electrolyte.init = '"init"'
     
     # Comp instance LiFePO4_incoherent, placement and parameters
     LiFePO4_incoherent = instr.add_component('LiFePO4_incoherent','Incoherent_process')
@@ -282,7 +274,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiFePO4_incoherent.packing_factor = '1'
     LiFePO4_incoherent.unit_cell_volume = '100'
     LiFePO4_incoherent.interact_fraction = '-1'
-    LiFePO4_incoherent.init = '"init"'
     
     # Comp instance LiFePO4_powder, placement and parameters
     LiFePO4_powder = instr.add_component('LiFePO4_powder','Powder_process')
@@ -300,7 +291,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiFePO4_powder.Strain = '0'
     LiFePO4_powder.interact_fraction = '-1'
     LiFePO4_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    LiFePO4_powder.init = '"init"'
     
     # Comp instance LiFePO4, placement and parameters
     LiFePO4 = instr.add_component('LiFePO4','Union_make_material')
@@ -312,7 +302,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     LiFePO4.refraction_sigma_coh = '0'
     LiFePO4.refraction_weight = '0'
     LiFePO4.refraction_SLD = '-1500'
-    LiFePO4.init = '"init"'
     
     # Comp instance Aluminum_incoherent, placement and parameters
     Aluminum_incoherent = instr.add_component('Aluminum_incoherent','Incoherent_process')
@@ -323,7 +312,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Aluminum_incoherent.packing_factor = '1'
     Aluminum_incoherent.unit_cell_volume = '100'
     Aluminum_incoherent.interact_fraction = '-1'
-    Aluminum_incoherent.init = '"init"'
     
     # Comp instance Aluminum_Powder, placement and parameters
     Aluminum_Powder = instr.add_component('Aluminum_Powder','Powder_process')
@@ -341,7 +329,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Aluminum_Powder.Strain = '0'
     Aluminum_Powder.interact_fraction = '-1'
     Aluminum_Powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Aluminum_Powder.init = '"init"'
     
     # Comp instance Aluminum, placement and parameters
     Aluminum = instr.add_component('Aluminum','Union_make_material')
@@ -353,7 +340,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     Aluminum.refraction_sigma_coh = '0'
     Aluminum.refraction_weight = '0'
     Aluminum.refraction_SLD = '-1500'
-    Aluminum.init = '"init"'
     
     # Comp instance Origin, placement and parameters
     Origin = instr.add_component('Origin','Progress_bar')
@@ -474,7 +460,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     seperator.mask_string = '0'
     seperator.mask_setting = '0'
     seperator.number_of_activations = '1'
-    seperator.init = '"init"'
     
     # Comp instance battery_bottom, placement and parameters
     battery_bottom = instr.add_component('battery_bottom','Arm', AT=['0', '-0.5 * battery_thickness_m', '0'], AT_RELATIVE='seperator', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='seperator')
@@ -512,7 +497,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_0.mask_string = '0'
     positive_electrode_layer_0.mask_setting = '0'
     positive_electrode_layer_0.number_of_activations = '1'
-    positive_electrode_layer_0.init = '"init"'
     
     # Comp instance positive_foil_layer_0, placement and parameters
     positive_foil_layer_0 = instr.add_component('positive_foil_layer_0','Union_box', AT=['0', 'positive_foil_center [ 0 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -546,7 +530,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_0.mask_string = '0'
     positive_foil_layer_0.mask_setting = '0'
     positive_foil_layer_0.number_of_activations = '1'
-    positive_foil_layer_0.init = '"init"'
     
     # Comp instance negative_electrode_layer_0, placement and parameters
     negative_electrode_layer_0 = instr.add_component('negative_electrode_layer_0','Union_box', AT=['0', 'negative_foil_center [ 0 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -580,7 +563,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_0.mask_string = '0'
     negative_electrode_layer_0.mask_setting = '0'
     negative_electrode_layer_0.number_of_activations = '1'
-    negative_electrode_layer_0.init = '"init"'
     
     # Comp instance negative_foil_layer_0, placement and parameters
     negative_foil_layer_0 = instr.add_component('negative_foil_layer_0','Union_box', AT=['0', 'negative_foil_center [ 0 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -614,7 +596,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_0.mask_string = '0'
     negative_foil_layer_0.mask_setting = '0'
     negative_foil_layer_0.number_of_activations = '1'
-    negative_foil_layer_0.init = '"init"'
     
     # Comp instance positive_electrode_layer_1, placement and parameters
     positive_electrode_layer_1 = instr.add_component('positive_electrode_layer_1','Union_box', AT=['0', 'positive_foil_center [ 1 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -648,7 +629,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_1.mask_string = '0'
     positive_electrode_layer_1.mask_setting = '0'
     positive_electrode_layer_1.number_of_activations = '1'
-    positive_electrode_layer_1.init = '"init"'
     
     # Comp instance positive_foil_layer_1, placement and parameters
     positive_foil_layer_1 = instr.add_component('positive_foil_layer_1','Union_box', AT=['0', 'positive_foil_center [ 1 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -682,7 +662,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_1.mask_string = '0'
     positive_foil_layer_1.mask_setting = '0'
     positive_foil_layer_1.number_of_activations = '1'
-    positive_foil_layer_1.init = '"init"'
     
     # Comp instance negative_electrode_layer_1, placement and parameters
     negative_electrode_layer_1 = instr.add_component('negative_electrode_layer_1','Union_box', AT=['0', 'negative_foil_center [ 1 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -716,7 +695,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_1.mask_string = '0'
     negative_electrode_layer_1.mask_setting = '0'
     negative_electrode_layer_1.number_of_activations = '1'
-    negative_electrode_layer_1.init = '"init"'
     
     # Comp instance negative_foil_layer_1, placement and parameters
     negative_foil_layer_1 = instr.add_component('negative_foil_layer_1','Union_box', AT=['0', 'negative_foil_center [ 1 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -750,7 +728,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_1.mask_string = '0'
     negative_foil_layer_1.mask_setting = '0'
     negative_foil_layer_1.number_of_activations = '1'
-    negative_foil_layer_1.init = '"init"'
     
     # Comp instance positive_electrode_layer_2, placement and parameters
     positive_electrode_layer_2 = instr.add_component('positive_electrode_layer_2','Union_box', AT=['0', 'positive_foil_center [ 2 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -784,7 +761,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_2.mask_string = '0'
     positive_electrode_layer_2.mask_setting = '0'
     positive_electrode_layer_2.number_of_activations = '1'
-    positive_electrode_layer_2.init = '"init"'
     
     # Comp instance positive_foil_layer_2, placement and parameters
     positive_foil_layer_2 = instr.add_component('positive_foil_layer_2','Union_box', AT=['0', 'positive_foil_center [ 2 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -818,7 +794,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_2.mask_string = '0'
     positive_foil_layer_2.mask_setting = '0'
     positive_foil_layer_2.number_of_activations = '1'
-    positive_foil_layer_2.init = '"init"'
     
     # Comp instance negative_electrode_layer_2, placement and parameters
     negative_electrode_layer_2 = instr.add_component('negative_electrode_layer_2','Union_box', AT=['0', 'negative_foil_center [ 2 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -852,7 +827,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_2.mask_string = '0'
     negative_electrode_layer_2.mask_setting = '0'
     negative_electrode_layer_2.number_of_activations = '1'
-    negative_electrode_layer_2.init = '"init"'
     
     # Comp instance negative_foil_layer_2, placement and parameters
     negative_foil_layer_2 = instr.add_component('negative_foil_layer_2','Union_box', AT=['0', 'negative_foil_center [ 2 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -886,7 +860,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_2.mask_string = '0'
     negative_foil_layer_2.mask_setting = '0'
     negative_foil_layer_2.number_of_activations = '1'
-    negative_foil_layer_2.init = '"init"'
     
     # Comp instance positive_electrode_layer_3, placement and parameters
     positive_electrode_layer_3 = instr.add_component('positive_electrode_layer_3','Union_box', AT=['0', 'positive_foil_center [ 3 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -920,7 +893,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_3.mask_string = '0'
     positive_electrode_layer_3.mask_setting = '0'
     positive_electrode_layer_3.number_of_activations = '1'
-    positive_electrode_layer_3.init = '"init"'
     
     # Comp instance positive_foil_layer_3, placement and parameters
     positive_foil_layer_3 = instr.add_component('positive_foil_layer_3','Union_box', AT=['0', 'positive_foil_center [ 3 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -954,7 +926,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_3.mask_string = '0'
     positive_foil_layer_3.mask_setting = '0'
     positive_foil_layer_3.number_of_activations = '1'
-    positive_foil_layer_3.init = '"init"'
     
     # Comp instance negative_electrode_layer_3, placement and parameters
     negative_electrode_layer_3 = instr.add_component('negative_electrode_layer_3','Union_box', AT=['0', 'negative_foil_center [ 3 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -988,7 +959,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_3.mask_string = '0'
     negative_electrode_layer_3.mask_setting = '0'
     negative_electrode_layer_3.number_of_activations = '1'
-    negative_electrode_layer_3.init = '"init"'
     
     # Comp instance negative_foil_layer_3, placement and parameters
     negative_foil_layer_3 = instr.add_component('negative_foil_layer_3','Union_box', AT=['0', 'negative_foil_center [ 3 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1022,7 +992,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_3.mask_string = '0'
     negative_foil_layer_3.mask_setting = '0'
     negative_foil_layer_3.number_of_activations = '1'
-    negative_foil_layer_3.init = '"init"'
     
     # Comp instance positive_electrode_layer_4, placement and parameters
     positive_electrode_layer_4 = instr.add_component('positive_electrode_layer_4','Union_box', AT=['0', 'positive_foil_center [ 4 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1056,7 +1025,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_4.mask_string = '0'
     positive_electrode_layer_4.mask_setting = '0'
     positive_electrode_layer_4.number_of_activations = '1'
-    positive_electrode_layer_4.init = '"init"'
     
     # Comp instance positive_foil_layer_4, placement and parameters
     positive_foil_layer_4 = instr.add_component('positive_foil_layer_4','Union_box', AT=['0', 'positive_foil_center [ 4 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1090,7 +1058,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_4.mask_string = '0'
     positive_foil_layer_4.mask_setting = '0'
     positive_foil_layer_4.number_of_activations = '1'
-    positive_foil_layer_4.init = '"init"'
     
     # Comp instance negative_electrode_layer_4, placement and parameters
     negative_electrode_layer_4 = instr.add_component('negative_electrode_layer_4','Union_box', AT=['0', 'negative_foil_center [ 4 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1124,7 +1091,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_4.mask_string = '0'
     negative_electrode_layer_4.mask_setting = '0'
     negative_electrode_layer_4.number_of_activations = '1'
-    negative_electrode_layer_4.init = '"init"'
     
     # Comp instance negative_foil_layer_4, placement and parameters
     negative_foil_layer_4 = instr.add_component('negative_foil_layer_4','Union_box', AT=['0', 'negative_foil_center [ 4 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1158,7 +1124,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_4.mask_string = '0'
     negative_foil_layer_4.mask_setting = '0'
     negative_foil_layer_4.number_of_activations = '1'
-    negative_foil_layer_4.init = '"init"'
     
     # Comp instance positive_electrode_layer_5, placement and parameters
     positive_electrode_layer_5 = instr.add_component('positive_electrode_layer_5','Union_box', AT=['0', 'positive_foil_center [ 5 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1192,7 +1157,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_5.mask_string = '0'
     positive_electrode_layer_5.mask_setting = '0'
     positive_electrode_layer_5.number_of_activations = '1'
-    positive_electrode_layer_5.init = '"init"'
     
     # Comp instance positive_foil_layer_5, placement and parameters
     positive_foil_layer_5 = instr.add_component('positive_foil_layer_5','Union_box', AT=['0', 'positive_foil_center [ 5 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1226,7 +1190,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_5.mask_string = '0'
     positive_foil_layer_5.mask_setting = '0'
     positive_foil_layer_5.number_of_activations = '1'
-    positive_foil_layer_5.init = '"init"'
     
     # Comp instance negative_electrode_layer_5, placement and parameters
     negative_electrode_layer_5 = instr.add_component('negative_electrode_layer_5','Union_box', AT=['0', 'negative_foil_center [ 5 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1260,7 +1223,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_5.mask_string = '0'
     negative_electrode_layer_5.mask_setting = '0'
     negative_electrode_layer_5.number_of_activations = '1'
-    negative_electrode_layer_5.init = '"init"'
     
     # Comp instance negative_foil_layer_5, placement and parameters
     negative_foil_layer_5 = instr.add_component('negative_foil_layer_5','Union_box', AT=['0', 'negative_foil_center [ 5 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1294,7 +1256,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_5.mask_string = '0'
     negative_foil_layer_5.mask_setting = '0'
     negative_foil_layer_5.number_of_activations = '1'
-    negative_foil_layer_5.init = '"init"'
     
     # Comp instance positive_electrode_layer_6, placement and parameters
     positive_electrode_layer_6 = instr.add_component('positive_electrode_layer_6','Union_box', AT=['0', 'positive_foil_center [ 6 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1328,7 +1289,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_6.mask_string = '0'
     positive_electrode_layer_6.mask_setting = '0'
     positive_electrode_layer_6.number_of_activations = '1'
-    positive_electrode_layer_6.init = '"init"'
     
     # Comp instance positive_foil_layer_6, placement and parameters
     positive_foil_layer_6 = instr.add_component('positive_foil_layer_6','Union_box', AT=['0', 'positive_foil_center [ 6 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1362,7 +1322,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_6.mask_string = '0'
     positive_foil_layer_6.mask_setting = '0'
     positive_foil_layer_6.number_of_activations = '1'
-    positive_foil_layer_6.init = '"init"'
     
     # Comp instance negative_electrode_layer_6, placement and parameters
     negative_electrode_layer_6 = instr.add_component('negative_electrode_layer_6','Union_box', AT=['0', 'negative_foil_center [ 6 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1396,7 +1355,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_6.mask_string = '0'
     negative_electrode_layer_6.mask_setting = '0'
     negative_electrode_layer_6.number_of_activations = '1'
-    negative_electrode_layer_6.init = '"init"'
     
     # Comp instance negative_foil_layer_6, placement and parameters
     negative_foil_layer_6 = instr.add_component('negative_foil_layer_6','Union_box', AT=['0', 'negative_foil_center [ 6 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1430,7 +1388,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_6.mask_string = '0'
     negative_foil_layer_6.mask_setting = '0'
     negative_foil_layer_6.number_of_activations = '1'
-    negative_foil_layer_6.init = '"init"'
     
     # Comp instance positive_electrode_layer_7, placement and parameters
     positive_electrode_layer_7 = instr.add_component('positive_electrode_layer_7','Union_box', AT=['0', 'positive_foil_center [ 7 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1464,7 +1421,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_7.mask_string = '0'
     positive_electrode_layer_7.mask_setting = '0'
     positive_electrode_layer_7.number_of_activations = '1'
-    positive_electrode_layer_7.init = '"init"'
     
     # Comp instance positive_foil_layer_7, placement and parameters
     positive_foil_layer_7 = instr.add_component('positive_foil_layer_7','Union_box', AT=['0', 'positive_foil_center [ 7 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1498,7 +1454,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_7.mask_string = '0'
     positive_foil_layer_7.mask_setting = '0'
     positive_foil_layer_7.number_of_activations = '1'
-    positive_foil_layer_7.init = '"init"'
     
     # Comp instance negative_electrode_layer_7, placement and parameters
     negative_electrode_layer_7 = instr.add_component('negative_electrode_layer_7','Union_box', AT=['0', 'negative_foil_center [ 7 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1532,7 +1487,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_7.mask_string = '0'
     negative_electrode_layer_7.mask_setting = '0'
     negative_electrode_layer_7.number_of_activations = '1'
-    negative_electrode_layer_7.init = '"init"'
     
     # Comp instance negative_foil_layer_7, placement and parameters
     negative_foil_layer_7 = instr.add_component('negative_foil_layer_7','Union_box', AT=['0', 'negative_foil_center [ 7 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1566,7 +1520,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_7.mask_string = '0'
     negative_foil_layer_7.mask_setting = '0'
     negative_foil_layer_7.number_of_activations = '1'
-    negative_foil_layer_7.init = '"init"'
     
     # Comp instance positive_electrode_layer_8, placement and parameters
     positive_electrode_layer_8 = instr.add_component('positive_electrode_layer_8','Union_box', AT=['0', 'positive_foil_center [ 8 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1600,7 +1553,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_8.mask_string = '0'
     positive_electrode_layer_8.mask_setting = '0'
     positive_electrode_layer_8.number_of_activations = '1'
-    positive_electrode_layer_8.init = '"init"'
     
     # Comp instance positive_foil_layer_8, placement and parameters
     positive_foil_layer_8 = instr.add_component('positive_foil_layer_8','Union_box', AT=['0', 'positive_foil_center [ 8 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1634,7 +1586,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_8.mask_string = '0'
     positive_foil_layer_8.mask_setting = '0'
     positive_foil_layer_8.number_of_activations = '1'
-    positive_foil_layer_8.init = '"init"'
     
     # Comp instance negative_electrode_layer_8, placement and parameters
     negative_electrode_layer_8 = instr.add_component('negative_electrode_layer_8','Union_box', AT=['0', 'negative_foil_center [ 8 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1668,7 +1619,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_8.mask_string = '0'
     negative_electrode_layer_8.mask_setting = '0'
     negative_electrode_layer_8.number_of_activations = '1'
-    negative_electrode_layer_8.init = '"init"'
     
     # Comp instance negative_foil_layer_8, placement and parameters
     negative_foil_layer_8 = instr.add_component('negative_foil_layer_8','Union_box', AT=['0', 'negative_foil_center [ 8 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1702,7 +1652,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_8.mask_string = '0'
     negative_foil_layer_8.mask_setting = '0'
     negative_foil_layer_8.number_of_activations = '1'
-    negative_foil_layer_8.init = '"init"'
     
     # Comp instance positive_electrode_layer_9, placement and parameters
     positive_electrode_layer_9 = instr.add_component('positive_electrode_layer_9','Union_box', AT=['0', 'positive_foil_center [ 9 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1736,7 +1685,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_electrode_layer_9.mask_string = '0'
     positive_electrode_layer_9.mask_setting = '0'
     positive_electrode_layer_9.number_of_activations = '1'
-    positive_electrode_layer_9.init = '"init"'
     
     # Comp instance positive_foil_layer_9, placement and parameters
     positive_foil_layer_9 = instr.add_component('positive_foil_layer_9','Union_box', AT=['0', 'positive_foil_center [ 9 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1770,7 +1718,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     positive_foil_layer_9.mask_string = '0'
     positive_foil_layer_9.mask_setting = '0'
     positive_foil_layer_9.number_of_activations = '1'
-    positive_foil_layer_9.init = '"init"'
     
     # Comp instance negative_electrode_layer_9, placement and parameters
     negative_electrode_layer_9 = instr.add_component('negative_electrode_layer_9','Union_box', AT=['0', 'negative_foil_center [ 9 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1804,7 +1751,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_electrode_layer_9.mask_string = '0'
     negative_electrode_layer_9.mask_setting = '0'
     negative_electrode_layer_9.number_of_activations = '1'
-    negative_electrode_layer_9.init = '"init"'
     
     # Comp instance negative_foil_layer_9, placement and parameters
     negative_foil_layer_9 = instr.add_component('negative_foil_layer_9','Union_box', AT=['0', 'negative_foil_center [ 9 ]', '0'], AT_RELATIVE='battery_bottom', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='battery_bottom')
@@ -1838,7 +1784,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     negative_foil_layer_9.mask_string = '0'
     negative_foil_layer_9.mask_setting = '0'
     negative_foil_layer_9.number_of_activations = '1'
-    negative_foil_layer_9.init = '"init"'
     
     # Comp instance battery, placement and parameters
     battery = instr.add_component('battery','Union_master', AT=['0', '0', '0'], AT_RELATIVE='samplearm', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='samplearm')
@@ -1856,7 +1801,6 @@ for (counter=0;counter<number_of_layers;counter++) {
     battery.enable_conditionals = '1'
     battery.inherit_number_of_scattering_events = '0'
     battery.weight_ratio_limit = '1e-90'
-    battery.init = '"init"'
     
     # Comp instance Stop, placement and parameters
     Stop = instr.add_component('Stop','Union_stop', AT=['0', '0', '0'], AT_RELATIVE='samplearm', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='samplearm')

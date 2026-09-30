@@ -482,7 +482,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Ni_Incoherent.packing_factor = '1'
     Ni_Incoherent.unit_cell_volume = '43.75561'
     Ni_Incoherent.interact_fraction = '0.2'
-    Ni_Incoherent.init = '"init"'
     
     # Comp instance Ni_Phonon_L, placement and parameters
     Ni_Phonon_L = instr.add_component('Ni_Phonon_L','PhononSimple_process', AT=['0', '0', '0'], ROTATED=['45', '0', '0'])
@@ -498,7 +497,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Ni_Phonon_L.DW = '1'
     Ni_Phonon_L.longitudinal = '1'
     Ni_Phonon_L.transverse = '0'
-    Ni_Phonon_L.init = '"init"'
     
     # Comp instance Ni_Phonon_T, placement and parameters
     Ni_Phonon_T = instr.add_component('Ni_Phonon_T','PhononSimple_process', AT=['0', '0', '0'], ROTATED=['45', '0', '0'])
@@ -514,7 +512,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Ni_Phonon_T.DW = '1'
     Ni_Phonon_T.longitudinal = '0'
     Ni_Phonon_T.transverse = '1'
-    Ni_Phonon_T.init = '"init"'
     
     # Comp instance Ni_Single_crystal, placement and parameters
     Ni_Single_crystal = instr.add_component('Ni_Single_crystal','Single_crystal_process', AT=['0', '0', '0'], ROTATED=['45', '0', '0'])
@@ -548,7 +545,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Ni_Single_crystal.PG = '0'
     Ni_Single_crystal.interact_fraction = '-1'
     Ni_Single_crystal.packing_factor = '1'
-    Ni_Single_crystal.init = '"init"'
     
     # Comp instance Ni, placement and parameters
     Ni = instr.add_component('Ni','Union_make_material')
@@ -560,7 +556,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Ni.refraction_sigma_coh = '0'
     Ni.refraction_weight = '0'
     Ni.refraction_SLD = '-1500'
-    Ni.init = '"init"'
     
     # Comp instance Origin, placement and parameters
     Origin = instr.add_component('Origin','Progress_bar')
@@ -745,7 +740,6 @@ machine_real.rah = fabs(machine_real.rah)*machine_hkl.sa;
     Sample.bottom_surface = '0'
     Sample.all_face_surface = '0'
     Sample.cut_surface = '0'
-    Sample.init = '"init"'
     
     # Comp instance Master, placement and parameters
     Master = instr.add_component('Master','Union_master', AT=['0', '0', '0'], AT_RELATIVE='Sample_Cradle_2', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='Sample_Cradle_2')
@@ -767,7 +761,6 @@ n_scattering_events = number_of_scattering_events;
     Master.enable_conditionals = '1'
     Master.inherit_number_of_scattering_events = '0'
     Master.weight_ratio_limit = '1e-90'
-    Master.init = '"init"'
     
     # Comp instance Stop, placement and parameters
     Stop = instr.add_component('Stop','Union_stop', AT=['0', '0', '0'], AT_RELATIVE='Sample_Cradle_2', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='Sample_Cradle_2')

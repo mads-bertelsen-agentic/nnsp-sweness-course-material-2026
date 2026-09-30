@@ -247,7 +247,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Al_incoherent.packing_factor = '1'
     Al_incoherent.unit_cell_volume = '66.4'
     Al_incoherent.interact_fraction = '-1'
-    Al_incoherent.init = '"init"'
     
     # Comp instance Al_powder, placement and parameters
     Al_powder = instr.add_component('Al_powder','Powder_process')
@@ -265,7 +264,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Al_powder.Strain = '0'
     Al_powder.interact_fraction = '-1'
     Al_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Al_powder.init = '"init"'
     
     # Comp instance Al, placement and parameters
     Al = instr.add_component('Al','Union_make_material')
@@ -277,7 +275,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Al.refraction_sigma_coh = '0'
     Al.refraction_weight = '0'
     Al.refraction_SLD = '-1500'
-    Al.init = '"init"'
     
     # Comp instance Fe_incoherent, placement and parameters
     Fe_incoherent = instr.add_component('Fe_incoherent','Incoherent_process')
@@ -288,7 +285,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe_incoherent.packing_factor = '1'
     Fe_incoherent.unit_cell_volume = '24.04'
     Fe_incoherent.interact_fraction = '-1'
-    Fe_incoherent.init = '"init"'
     
     # Comp instance Fe_powder, placement and parameters
     Fe_powder = instr.add_component('Fe_powder','Powder_process')
@@ -306,7 +302,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe_powder.Strain = '0'
     Fe_powder.interact_fraction = '-1'
     Fe_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe_powder.init = '"init"'
     
     # Comp instance Fe, placement and parameters
     Fe = instr.add_component('Fe','Union_make_material')
@@ -318,7 +313,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe.refraction_sigma_coh = '0'
     Fe.refraction_weight = '0'
     Fe.refraction_SLD = '-1500'
-    Fe.init = '"init"'
     
     # Comp instance Fe_alpha_incoherent, placement and parameters
     Fe_alpha_incoherent = instr.add_component('Fe_alpha_incoherent','Incoherent_process')
@@ -329,7 +323,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe_alpha_incoherent.packing_factor = '1'
     Fe_alpha_incoherent.unit_cell_volume = '23.55352'
     Fe_alpha_incoherent.interact_fraction = '-1'
-    Fe_alpha_incoherent.init = '"init"'
     
     # Comp instance Fe_alpha_powder, placement and parameters
     Fe_alpha_powder = instr.add_component('Fe_alpha_powder','Powder_process')
@@ -347,7 +340,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe_alpha_powder.Strain = '0'
     Fe_alpha_powder.interact_fraction = '-1'
     Fe_alpha_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe_alpha_powder.init = '"init"'
     
     # Comp instance Fe_alpha, placement and parameters
     Fe_alpha = instr.add_component('Fe_alpha','Union_make_material')
@@ -359,7 +351,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe_alpha.refraction_sigma_coh = '0'
     Fe_alpha.refraction_weight = '0'
     Fe_alpha.refraction_SLD = '-1500'
-    Fe_alpha.init = '"init"'
     
     # Comp instance cementite_incoherent, placement and parameters
     cementite_incoherent = instr.add_component('cementite_incoherent','Incoherent_process')
@@ -370,7 +361,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     cementite_incoherent.packing_factor = '1'
     cementite_incoherent.unit_cell_volume = '155.15118'
     cementite_incoherent.interact_fraction = '-1'
-    cementite_incoherent.init = '"init"'
     
     # Comp instance cementite_powder, placement and parameters
     cementite_powder = instr.add_component('cementite_powder','Powder_process')
@@ -388,7 +378,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     cementite_powder.Strain = '0'
     cementite_powder.interact_fraction = '-1'
     cementite_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    cementite_powder.init = '"init"'
     
     # Comp instance cementite, placement and parameters
     cementite = instr.add_component('cementite','Union_make_material')
@@ -400,7 +389,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     cementite.refraction_sigma_coh = '0'
     cementite.refraction_weight = '0'
     cementite.refraction_SLD = '-1500'
-    cementite.init = '"init"'
     
     # Comp instance mix_Fe_alpha_incoherent, placement and parameters
     mix_Fe_alpha_incoherent = instr.add_component('mix_Fe_alpha_incoherent','Incoherent_process')
@@ -411,7 +399,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     mix_Fe_alpha_incoherent.packing_factor = '1.0 - mixture'
     mix_Fe_alpha_incoherent.unit_cell_volume = '23.55352'
     mix_Fe_alpha_incoherent.interact_fraction = '-1'
-    mix_Fe_alpha_incoherent.init = '"init"'
     
     # Comp instance mix_cementite_incoherent, placement and parameters
     mix_cementite_incoherent = instr.add_component('mix_cementite_incoherent','Incoherent_process')
@@ -422,7 +409,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     mix_cementite_incoherent.packing_factor = 'mixture'
     mix_cementite_incoherent.unit_cell_volume = '155.15118'
     mix_cementite_incoherent.interact_fraction = '-1'
-    mix_cementite_incoherent.init = '"init"'
     
     # Comp instance mix_Fe_alpha_powder, placement and parameters
     mix_Fe_alpha_powder = instr.add_component('mix_Fe_alpha_powder','Powder_process')
@@ -440,7 +426,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     mix_Fe_alpha_powder.Strain = '0'
     mix_Fe_alpha_powder.interact_fraction = '-1'
     mix_Fe_alpha_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    mix_Fe_alpha_powder.init = '"init"'
     
     # Comp instance mix_cementite_powder, placement and parameters
     mix_cementite_powder = instr.add_component('mix_cementite_powder','Powder_process')
@@ -458,7 +443,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     mix_cementite_powder.Strain = '0'
     mix_cementite_powder.interact_fraction = '-1'
     mix_cementite_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    mix_cementite_powder.init = '"init"'
     
     # Comp instance iron_mix, placement and parameters
     iron_mix = instr.add_component('iron_mix','Union_make_material')
@@ -470,7 +454,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     iron_mix.refraction_sigma_coh = '0'
     iron_mix.refraction_weight = '0'
     iron_mix.refraction_SLD = '-1500'
-    iron_mix.init = '"init"'
     
     # Comp instance Fe3O4_incoherent, placement and parameters
     Fe3O4_incoherent = instr.add_component('Fe3O4_incoherent','Incoherent_process')
@@ -481,7 +464,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_incoherent.packing_factor = '1'
     Fe3O4_incoherent.unit_cell_volume = '157.15089'
     Fe3O4_incoherent.interact_fraction = '-1'
-    Fe3O4_incoherent.init = '"init"'
     
     # Comp instance Fe3O4_powder, placement and parameters
     Fe3O4_powder = instr.add_component('Fe3O4_powder','Powder_process')
@@ -499,7 +481,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_powder.Strain = '0'
     Fe3O4_powder.interact_fraction = '-1'
     Fe3O4_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe3O4_powder.init = '"init"'
     
     # Comp instance Fe3O4, placement and parameters
     Fe3O4 = instr.add_component('Fe3O4','Union_make_material')
@@ -511,7 +492,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4.refraction_sigma_coh = '0'
     Fe3O4.refraction_weight = '0'
     Fe3O4.refraction_SLD = '-1500'
-    Fe3O4.init = '"init"'
     
     # Comp instance Fe2O3_incoherent, placement and parameters
     Fe2O3_incoherent = instr.add_component('Fe2O3_incoherent','Incoherent_process')
@@ -522,7 +502,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_incoherent.packing_factor = '1'
     Fe2O3_incoherent.unit_cell_volume = '302.72198'
     Fe2O3_incoherent.interact_fraction = '-1'
-    Fe2O3_incoherent.init = '"init"'
     
     # Comp instance Fe2O3_powder, placement and parameters
     Fe2O3_powder = instr.add_component('Fe2O3_powder','Powder_process')
@@ -540,7 +519,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_powder.Strain = '0'
     Fe2O3_powder.interact_fraction = '-1'
     Fe2O3_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe2O3_powder.init = '"init"'
     
     # Comp instance Fe2O3, placement and parameters
     Fe2O3 = instr.add_component('Fe2O3','Union_make_material')
@@ -552,7 +530,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3.refraction_sigma_coh = '0'
     Fe2O3.refraction_weight = '0'
     Fe2O3.refraction_SLD = '-1500'
-    Fe2O3.init = '"init"'
     
     # Comp instance FeOOH_incoherent, placement and parameters
     FeOOH_incoherent = instr.add_component('FeOOH_incoherent','Incoherent_process')
@@ -563,7 +540,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_incoherent.packing_factor = '1'
     FeOOH_incoherent.unit_cell_volume = '302.72198'
     FeOOH_incoherent.interact_fraction = '-1'
-    FeOOH_incoherent.init = '"init"'
     
     # Comp instance FeOOH_powder, placement and parameters
     FeOOH_powder = instr.add_component('FeOOH_powder','Powder_process')
@@ -581,7 +557,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_powder.Strain = '0'
     FeOOH_powder.interact_fraction = '-1'
     FeOOH_powder.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    FeOOH_powder.init = '"init"'
     
     # Comp instance FeOOH, placement and parameters
     FeOOH = instr.add_component('FeOOH','Union_make_material')
@@ -593,7 +568,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH.refraction_sigma_coh = '0'
     FeOOH.refraction_weight = '0'
     FeOOH.refraction_SLD = '-1500'
-    FeOOH.init = '"init"'
     
     # Comp instance Fe3O4_incoherent2, placement and parameters
     Fe3O4_incoherent2 = instr.add_component('Fe3O4_incoherent2','Incoherent_process')
@@ -604,7 +578,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_incoherent2.packing_factor = 'Fe3O4_content'
     Fe3O4_incoherent2.unit_cell_volume = '157.15089'
     Fe3O4_incoherent2.interact_fraction = '-1'
-    Fe3O4_incoherent2.init = '"init"'
     
     # Comp instance Fe3O4_powder2, placement and parameters
     Fe3O4_powder2 = instr.add_component('Fe3O4_powder2','Powder_process')
@@ -622,7 +595,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_powder2.Strain = '0'
     Fe3O4_powder2.interact_fraction = '-1'
     Fe3O4_powder2.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe3O4_powder2.init = '"init"'
     
     # Comp instance Fe2O3_incoherent2, placement and parameters
     Fe2O3_incoherent2 = instr.add_component('Fe2O3_incoherent2','Incoherent_process')
@@ -633,7 +605,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_incoherent2.packing_factor = 'Fe2O3_content'
     Fe2O3_incoherent2.unit_cell_volume = '302.72198'
     Fe2O3_incoherent2.interact_fraction = '-1'
-    Fe2O3_incoherent2.init = '"init"'
     
     # Comp instance Fe2O3_powder2, placement and parameters
     Fe2O3_powder2 = instr.add_component('Fe2O3_powder2','Powder_process')
@@ -651,7 +622,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_powder2.Strain = '0'
     Fe2O3_powder2.interact_fraction = '-1'
     Fe2O3_powder2.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe2O3_powder2.init = '"init"'
     
     # Comp instance FeOOH_incoherent2, placement and parameters
     FeOOH_incoherent2 = instr.add_component('FeOOH_incoherent2','Incoherent_process')
@@ -662,7 +632,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_incoherent2.packing_factor = 'FeOOH_content'
     FeOOH_incoherent2.unit_cell_volume = '302.72198'
     FeOOH_incoherent2.interact_fraction = '-1'
-    FeOOH_incoherent2.init = '"init"'
     
     # Comp instance FeOOH_powder2, placement and parameters
     FeOOH_powder2 = instr.add_component('FeOOH_powder2','Powder_process')
@@ -680,7 +649,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_powder2.Strain = '0'
     FeOOH_powder2.interact_fraction = '-1'
     FeOOH_powder2.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    FeOOH_powder2.init = '"init"'
     
     # Comp instance rust_mix, placement and parameters
     rust_mix = instr.add_component('rust_mix','Union_make_material')
@@ -692,7 +660,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_mix.refraction_sigma_coh = '0'
     rust_mix.refraction_weight = '0'
     rust_mix.refraction_SLD = '-1500'
-    rust_mix.init = '"init"'
     
     # Comp instance Fe3O4_incoherent3, placement and parameters
     Fe3O4_incoherent3 = instr.add_component('Fe3O4_incoherent3','Incoherent_process')
@@ -703,7 +670,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_incoherent3.packing_factor = '0.25'
     Fe3O4_incoherent3.unit_cell_volume = '157.15089'
     Fe3O4_incoherent3.interact_fraction = '-1'
-    Fe3O4_incoherent3.init = '"init"'
     
     # Comp instance Fe3O4_powder3, placement and parameters
     Fe3O4_powder3 = instr.add_component('Fe3O4_powder3','Powder_process')
@@ -721,7 +687,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_powder3.Strain = '0'
     Fe3O4_powder3.interact_fraction = '-1'
     Fe3O4_powder3.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe3O4_powder3.init = '"init"'
     
     # Comp instance Fe2O3_incoherent3, placement and parameters
     Fe2O3_incoherent3 = instr.add_component('Fe2O3_incoherent3','Incoherent_process')
@@ -732,7 +697,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_incoherent3.packing_factor = '0.25'
     Fe2O3_incoherent3.unit_cell_volume = '302.72198'
     Fe2O3_incoherent3.interact_fraction = '-1'
-    Fe2O3_incoherent3.init = '"init"'
     
     # Comp instance Fe2O3_powder3, placement and parameters
     Fe2O3_powder3 = instr.add_component('Fe2O3_powder3','Powder_process')
@@ -750,7 +714,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_powder3.Strain = '0'
     Fe2O3_powder3.interact_fraction = '-1'
     Fe2O3_powder3.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe2O3_powder3.init = '"init"'
     
     # Comp instance FeOOH_incoherent3, placement and parameters
     FeOOH_incoherent3 = instr.add_component('FeOOH_incoherent3','Incoherent_process')
@@ -761,7 +724,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_incoherent3.packing_factor = '0.5'
     FeOOH_incoherent3.unit_cell_volume = '302.72198'
     FeOOH_incoherent3.interact_fraction = '-1'
-    FeOOH_incoherent3.init = '"init"'
     
     # Comp instance FeOOH_powder3, placement and parameters
     FeOOH_powder3 = instr.add_component('FeOOH_powder3','Powder_process')
@@ -779,7 +741,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_powder3.Strain = '0'
     FeOOH_powder3.interact_fraction = '-1'
     FeOOH_powder3.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    FeOOH_powder3.init = '"init"'
     
     # Comp instance rust_mix_FeOOH_High, placement and parameters
     rust_mix_FeOOH_High = instr.add_component('rust_mix_FeOOH_High','Union_make_material')
@@ -791,7 +752,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_mix_FeOOH_High.refraction_sigma_coh = '0'
     rust_mix_FeOOH_High.refraction_weight = '0'
     rust_mix_FeOOH_High.refraction_SLD = '-1500'
-    rust_mix_FeOOH_High.init = '"init"'
     
     # Comp instance Fe3O4_incoherent4, placement and parameters
     Fe3O4_incoherent4 = instr.add_component('Fe3O4_incoherent4','Incoherent_process')
@@ -802,7 +762,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_incoherent4.packing_factor = '0.5'
     Fe3O4_incoherent4.unit_cell_volume = '157.15089'
     Fe3O4_incoherent4.interact_fraction = '-1'
-    Fe3O4_incoherent4.init = '"init"'
     
     # Comp instance Fe3O4_powder4, placement and parameters
     Fe3O4_powder4 = instr.add_component('Fe3O4_powder4','Powder_process')
@@ -820,7 +779,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe3O4_powder4.Strain = '0'
     Fe3O4_powder4.interact_fraction = '-1'
     Fe3O4_powder4.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe3O4_powder4.init = '"init"'
     
     # Comp instance Fe2O3_incoherent4, placement and parameters
     Fe2O3_incoherent4 = instr.add_component('Fe2O3_incoherent4','Incoherent_process')
@@ -831,7 +789,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_incoherent4.packing_factor = '0.25'
     Fe2O3_incoherent4.unit_cell_volume = '302.72198'
     Fe2O3_incoherent4.interact_fraction = '-1'
-    Fe2O3_incoherent4.init = '"init"'
     
     # Comp instance Fe2O3_powder4, placement and parameters
     Fe2O3_powder4 = instr.add_component('Fe2O3_powder4','Powder_process')
@@ -849,7 +806,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Fe2O3_powder4.Strain = '0'
     Fe2O3_powder4.interact_fraction = '-1'
     Fe2O3_powder4.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    Fe2O3_powder4.init = '"init"'
     
     # Comp instance FeOOH_incoherent4, placement and parameters
     FeOOH_incoherent4 = instr.add_component('FeOOH_incoherent4','Incoherent_process')
@@ -860,7 +816,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_incoherent4.packing_factor = '0.25'
     FeOOH_incoherent4.unit_cell_volume = '302.72198'
     FeOOH_incoherent4.interact_fraction = '-1'
-    FeOOH_incoherent4.init = '"init"'
     
     # Comp instance FeOOH_powder4, placement and parameters
     FeOOH_powder4 = instr.add_component('FeOOH_powder4','Powder_process')
@@ -878,7 +833,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     FeOOH_powder4.Strain = '0'
     FeOOH_powder4.interact_fraction = '-1'
     FeOOH_powder4.format = '{ 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 }'
-    FeOOH_powder4.init = '"init"'
     
     # Comp instance rust_mix_Fe3O4_High, placement and parameters
     rust_mix_Fe3O4_High = instr.add_component('rust_mix_Fe3O4_High','Union_make_material')
@@ -890,7 +844,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_mix_Fe3O4_High.refraction_sigma_coh = '0'
     rust_mix_Fe3O4_High.refraction_weight = '0'
     rust_mix_Fe3O4_High.refraction_SLD = '-1500'
-    rust_mix_Fe3O4_High.init = '"init"'
     
     # Comp instance Turn_table_center, placement and parameters
     Turn_table_center = instr.add_component('Turn_table_center','Arm', AT=['X_sample_pos', 'Y_sample_pos', 'pinhole_sample_distance'], AT_RELATIVE='graph', ROTATED=['0', 'angle', '0'], ROTATED_RELATIVE='graph')
@@ -922,7 +875,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_1.number_of_activations = '1'
     blade_rust_side_1.surface = '0'
     blade_rust_side_1.cut_surface = '0'
-    blade_rust_side_1.init = '"init"'
     
     # Comp instance blade_rust_side_2, placement and parameters
     blade_rust_side_2 = instr.add_component('blade_rust_side_2','Union_sphere', AT=['sword_width + 0.068', '0.065001', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -946,7 +898,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_2.number_of_activations = '1'
     blade_rust_side_2.surface = '0'
     blade_rust_side_2.cut_surface = '0'
-    blade_rust_side_2.init = '"init"'
     
     # Comp instance blade_rust_side_3, placement and parameters
     blade_rust_side_3 = instr.add_component('blade_rust_side_3','Union_sphere', AT=['sword_width + 0.06', '0.0', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -970,7 +921,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_3.number_of_activations = '1'
     blade_rust_side_3.surface = '0'
     blade_rust_side_3.cut_surface = '0'
-    blade_rust_side_3.init = '"init"'
     
     # Comp instance blade_iron_side_1, placement and parameters
     blade_iron_side_1 = instr.add_component('blade_iron_side_1','Union_box', AT=['0.062', '0', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1004,7 +954,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_iron_side_1.mask_string = '0'
     blade_iron_side_1.mask_setting = '0'
     blade_iron_side_1.number_of_activations = '1'
-    blade_iron_side_1.init = '"init"'
     
     # Comp instance blade_mask_1, placement and parameters
     blade_mask_1 = instr.add_component('blade_mask_1','Union_cylinder', AT=['blade_start_width * 0.5', '0', 'blade_mask_radius - sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['width_angle', '0', 'blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1032,7 +981,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_1.bottom_surface = '0'
     blade_mask_1.all_face_surface = '0'
     blade_mask_1.cut_surface = '0'
-    blade_mask_1.init = '"init"'
     
     # Comp instance blade_mask_2, placement and parameters
     blade_mask_2 = instr.add_component('blade_mask_2','Union_cylinder', AT=['blade_start_width * 0.5', '0', '- blade_mask_radius + sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['- width_angle', '0', 'blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1060,7 +1008,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_2.bottom_surface = '0'
     blade_mask_2.all_face_surface = '0'
     blade_mask_2.cut_surface = '0'
-    blade_mask_2.init = '"init"'
     
     # Comp instance blade_mask_25, placement and parameters
     blade_mask_25 = instr.add_component('blade_mask_25','Union_box', AT=['blade_start_width', '0', '0'], AT_RELATIVE='object_center', ROTATED=['width_angle', '0', 'blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1094,7 +1041,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_25.mask_string = '"blade_rust_side_1,blade_rust_side_2,blade_rust_side_3,blade_iron_side_1"'
     blade_mask_25.mask_setting = '"All"'
     blade_mask_25.number_of_activations = '1'
-    blade_mask_25.init = '"init"'
     
     # Comp instance blade_rust_iron_core_side_1, placement and parameters
     blade_rust_iron_core_side_1 = instr.add_component('blade_rust_iron_core_side_1','Union_box', AT=['0.062', '0', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1128,7 +1074,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_iron_core_side_1.mask_string = '0'
     blade_rust_iron_core_side_1.mask_setting = '0'
     blade_rust_iron_core_side_1.number_of_activations = '1'
-    blade_rust_iron_core_side_1.init = '"init"'
     
     # Comp instance rust_mask_1, placement and parameters
     rust_mask_1 = instr.add_component('rust_mask_1','Union_cylinder', AT=['blade_start_width * 0.5', '0', 'blade_mask_radius - sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['width_angle', '0', 'blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1156,7 +1101,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_mask_1.bottom_surface = '0'
     rust_mask_1.all_face_surface = '0'
     rust_mask_1.cut_surface = '0'
-    rust_mask_1.init = '"init"'
     
     # Comp instance rust_mask_2, placement and parameters
     rust_mask_2 = instr.add_component('rust_mask_2','Union_cylinder', AT=['blade_start_width * 0.5', '0', '- blade_mask_radius + sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['- width_angle', '0', 'blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1184,7 +1128,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_mask_2.bottom_surface = '0'
     rust_mask_2.all_face_surface = '0'
     rust_mask_2.cut_surface = '0'
-    rust_mask_2.init = '"init"'
     
     # Comp instance blade_iron_side_2, placement and parameters
     blade_iron_side_2 = instr.add_component('blade_iron_side_2','Union_box', AT=['-0.061', '0', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1218,7 +1161,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_iron_side_2.mask_string = '0'
     blade_iron_side_2.mask_setting = '0'
     blade_iron_side_2.number_of_activations = '1'
-    blade_iron_side_2.init = '"init"'
     
     # Comp instance blade_mask_3, placement and parameters
     blade_mask_3 = instr.add_component('blade_mask_3','Union_cylinder', AT=['- blade_start_width * 0.5', '0', 'blade_mask_radius - sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['width_angle', '0', '- blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1246,7 +1188,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_3.bottom_surface = '0'
     blade_mask_3.all_face_surface = '0'
     blade_mask_3.cut_surface = '0'
-    blade_mask_3.init = '"init"'
     
     # Comp instance blade_mask_4, placement and parameters
     blade_mask_4 = instr.add_component('blade_mask_4','Union_cylinder', AT=['- blade_start_width * 0.5', '0', '- blade_mask_radius + sword_depth * 0.5'], AT_RELATIVE='object_center', ROTATED=['- width_angle', '0', '- blade_angle_deg'], ROTATED_RELATIVE='object_center')
@@ -1274,7 +1215,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_4.bottom_surface = '0'
     blade_mask_4.all_face_surface = '0'
     blade_mask_4.cut_surface = '0'
-    blade_mask_4.init = '"init"'
     
     # Comp instance rust_core, placement and parameters
     rust_core = instr.add_component('rust_core','Union_box', AT=['0', '0', '0'], AT_RELATIVE='object_center', ROTATED=['-90', '0', '45'], ROTATED_RELATIVE='object_center')
@@ -1308,7 +1248,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_core.mask_string = '0'
     rust_core.mask_setting = '0'
     rust_core.number_of_activations = '1'
-    rust_core.init = '"init"'
     
     # Comp instance hard_core, placement and parameters
     hard_core = instr.add_component('hard_core','Union_box', AT=['0', '0', '0'], AT_RELATIVE='object_center', ROTATED=['-90', '0', '45'], ROTATED_RELATIVE='object_center')
@@ -1342,7 +1281,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     hard_core.mask_string = '0'
     hard_core.mask_setting = '0'
     hard_core.number_of_activations = '1'
-    hard_core.init = '"init"'
     
     # Comp instance side_cut_1, placement and parameters
     side_cut_1 = instr.add_component('side_cut_1','Union_cylinder', AT=['0', '0', 'cut_radius + sword_depth * 0.5 - cut_depth + 0.0001'], AT_RELATIVE='object_center', ROTATED=['- cut_angle + 0.00001', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1370,7 +1308,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     side_cut_1.bottom_surface = '0'
     side_cut_1.all_face_surface = '0'
     side_cut_1.cut_surface = '0'
-    side_cut_1.init = '"init"'
     
     # Comp instance side_cut_2, placement and parameters
     side_cut_2 = instr.add_component('side_cut_2','Union_cylinder', AT=['0', '0', '- cut_radius - sword_depth * 0.5 + cut_depth + 0.0001'], AT_RELATIVE='object_center', ROTATED=['cut_angle + 0.00002', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1398,7 +1335,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     side_cut_2.bottom_surface = '0'
     side_cut_2.all_face_surface = '0'
     side_cut_2.cut_surface = '0'
-    side_cut_2.init = '"init"'
     
     # Comp instance blade_iron_side_tip_1, placement and parameters
     blade_iron_side_tip_1 = instr.add_component('blade_iron_side_tip_1','Union_box', AT=['0.06', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1432,7 +1368,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_iron_side_tip_1.mask_string = '0'
     blade_iron_side_tip_1.mask_setting = '0'
     blade_iron_side_tip_1.number_of_activations = '1'
-    blade_iron_side_tip_1.init = '"init"'
     
     # Comp instance blade_mask_tip_1, placement and parameters
     blade_mask_tip_1 = instr.add_component('blade_mask_tip_1','Union_cylinder', AT=['blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', 'blade_tip_mask_radius - sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['2.5 * width_angle', '0', 'blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1460,7 +1395,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_1.bottom_surface = '0'
     blade_mask_tip_1.all_face_surface = '0'
     blade_mask_tip_1.cut_surface = '0'
-    blade_mask_tip_1.init = '"init"'
     
     # Comp instance blade_mask_tip_2, placement and parameters
     blade_mask_tip_2 = instr.add_component('blade_mask_tip_2','Union_cylinder', AT=['blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', '- blade_tip_mask_radius + sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['-2.5 * width_angle', '0', 'blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1488,7 +1422,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_2.bottom_surface = '0'
     blade_mask_tip_2.all_face_surface = '0'
     blade_mask_tip_2.cut_surface = '0'
-    blade_mask_tip_2.init = '"init"'
     
     # Comp instance blade_rust_side_tip_2, placement and parameters
     blade_rust_side_tip_2 = instr.add_component('blade_rust_side_tip_2','Union_sphere', AT=['-0.88 * sword_width', '0.5 * sword_height + 0.5 * tip_height', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1512,7 +1445,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_tip_2.number_of_activations = '1'
     blade_rust_side_tip_2.surface = '0'
     blade_rust_side_tip_2.cut_surface = '0'
-    blade_rust_side_tip_2.init = '"init"'
     
     # Comp instance blade_rust_side_tip_3, placement and parameters
     blade_rust_side_tip_3 = instr.add_component('blade_rust_side_tip_3','Union_sphere', AT=['-0.83 * sword_width', '0.55 * sword_height + 0.5 * tip_height', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1536,7 +1468,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_tip_3.number_of_activations = '1'
     blade_rust_side_tip_3.surface = '0'
     blade_rust_side_tip_3.cut_surface = '0'
-    blade_rust_side_tip_3.init = '"init"'
     
     # Comp instance blade_rust_side_tip_4, placement and parameters
     blade_rust_side_tip_4 = instr.add_component('blade_rust_side_tip_4','Union_sphere', AT=['-0.96 * sword_width', '0.45 * sword_height + 0.5 * tip_height', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1560,7 +1491,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_rust_side_tip_4.number_of_activations = '1'
     blade_rust_side_tip_4.surface = '0'
     blade_rust_side_tip_4.cut_surface = '0'
-    blade_rust_side_tip_4.init = '"init"'
     
     # Comp instance blade_iron_side_tip_2, placement and parameters
     blade_iron_side_tip_2 = instr.add_component('blade_iron_side_tip_2','Union_box', AT=['-0.06', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1594,7 +1524,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_iron_side_tip_2.mask_string = '0'
     blade_iron_side_tip_2.mask_setting = '0'
     blade_iron_side_tip_2.number_of_activations = '1'
-    blade_iron_side_tip_2.init = '"init"'
     
     # Comp instance blade_mask_tip_3, placement and parameters
     blade_mask_tip_3 = instr.add_component('blade_mask_tip_3','Union_cylinder', AT=['- blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', 'blade_tip_mask_radius - sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['2.5 * width_angle', '0', '- blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1622,7 +1551,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_3.bottom_surface = '0'
     blade_mask_tip_3.all_face_surface = '0'
     blade_mask_tip_3.cut_surface = '0'
-    blade_mask_tip_3.init = '"init"'
     
     # Comp instance blade_mask_tip_4, placement and parameters
     blade_mask_tip_4 = instr.add_component('blade_mask_tip_4','Union_cylinder', AT=['- blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', '- blade_tip_mask_radius + sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['-2.5 * width_angle', '0', '- blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1650,7 +1578,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_4.bottom_surface = '0'
     blade_mask_tip_4.all_face_surface = '0'
     blade_mask_tip_4.cut_surface = '0'
-    blade_mask_tip_4.init = '"init"'
     
     # Comp instance blade_side_iron_core_tip_2, placement and parameters
     blade_side_iron_core_tip_2 = instr.add_component('blade_side_iron_core_tip_2','Union_box', AT=['-0.06', 'sword_height * 0.5 + tip_height * 0.5 + 0.0001', '0'], AT_RELATIVE='object_center', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='object_center')
@@ -1684,7 +1611,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_side_iron_core_tip_2.mask_string = '0'
     blade_side_iron_core_tip_2.mask_setting = '0'
     blade_side_iron_core_tip_2.number_of_activations = '1'
-    blade_side_iron_core_tip_2.init = '"init"'
     
     # Comp instance blade_mask_tip_5, placement and parameters
     blade_mask_tip_5 = instr.add_component('blade_mask_tip_5','Union_cylinder', AT=['- blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', 'blade_tip_mask_radius - sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['2.5 * width_angle', '0', '- blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1712,7 +1638,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_5.bottom_surface = '0'
     blade_mask_tip_5.all_face_surface = '0'
     blade_mask_tip_5.cut_surface = '0'
-    blade_mask_tip_5.init = '"init"'
     
     # Comp instance blade_mask_tip_6, placement and parameters
     blade_mask_tip_6 = instr.add_component('blade_mask_tip_6','Union_cylinder', AT=['- blade_top_width * 0.5 * tip_x_multiplier', 'sword_height * 0.5 + tip_height * 0.5 -0.0001', '- blade_tip_mask_radius + sword_depth * 0.5 * 0.8'], AT_RELATIVE='object_center', ROTATED=['-2.5 * width_angle', '0', '- blade_angle_tip_deg'], ROTATED_RELATIVE='object_center')
@@ -1740,7 +1665,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     blade_mask_tip_6.bottom_surface = '0'
     blade_mask_tip_6.all_face_surface = '0'
     blade_mask_tip_6.cut_surface = '0'
-    blade_mask_tip_6.init = '"init"'
     
     # Comp instance rust_core_tip, placement and parameters
     rust_core_tip = instr.add_component('rust_core_tip','Union_box', AT=['0', 'sword_height * 0.5 + ( tip_height -0.05 ) * 0.5 -0.0003', '0'], AT_RELATIVE='object_center', ROTATED=['-90', '0', '45'], ROTATED_RELATIVE='object_center')
@@ -1774,7 +1698,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     rust_core_tip.mask_string = '0'
     rust_core_tip.mask_setting = '0'
     rust_core_tip.number_of_activations = '1'
-    rust_core_tip.init = '"init"'
     
     # Comp instance hard_core_tip, placement and parameters
     hard_core_tip = instr.add_component('hard_core_tip','Union_box', AT=['0', 'sword_height * 0.5 + ( tip_height -0.05 ) * 0.5 -0.0001', '0'], AT_RELATIVE='object_center', ROTATED=['-90', 'sword_height * 0.5 -0.0001', '45'], ROTATED_RELATIVE='object_center')
@@ -1808,7 +1731,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     hard_core_tip.mask_string = '0'
     hard_core_tip.mask_setting = '0'
     hard_core_tip.number_of_activations = '1'
-    hard_core_tip.init = '"init"'
     
     # Comp instance left_blade_guard, placement and parameters
     left_blade_guard = instr.add_component('left_blade_guard','Union_box', AT=['0.0451', '- sword_height * 0.5 -0.015', '0'], AT_RELATIVE='object_center', ROTATED=['0', '90', '0'], ROTATED_RELATIVE='object_center')
@@ -1842,7 +1764,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     left_blade_guard.mask_string = '0'
     left_blade_guard.mask_setting = '0'
     left_blade_guard.number_of_activations = '1'
-    left_blade_guard.init = '"init"'
     
     # Comp instance right_blade_guard, placement and parameters
     right_blade_guard = instr.add_component('right_blade_guard','Union_box', AT=['-0.0451', '- sword_height * 0.5 -0.015', '0'], AT_RELATIVE='object_center', ROTATED=['0', '-90', '0'], ROTATED_RELATIVE='object_center')
@@ -1876,7 +1797,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     right_blade_guard.mask_string = '0'
     right_blade_guard.mask_setting = '0'
     right_blade_guard.number_of_activations = '1'
-    right_blade_guard.init = '"init"'
     
     # Comp instance handle, placement and parameters
     handle = instr.add_component('handle','Union_cylinder', AT=['0', '- sword_height * 0.5 -0.03 -0.15 * 0.5', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1904,7 +1824,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     handle.bottom_surface = '0'
     handle.all_face_surface = '0'
     handle.cut_surface = '0'
-    handle.init = '"init"'
     
     # Comp instance handle_end, placement and parameters
     handle_end = instr.add_component('handle_end','Union_sphere', AT=['0', '- sword_height * 0.5 -0.03 -0.15', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1928,7 +1847,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     handle_end.number_of_activations = '1'
     handle_end.surface = '0'
     handle_end.cut_surface = '0'
-    handle_end.init = '"init"'
     
     # Comp instance sample_mount, placement and parameters
     sample_mount = instr.add_component('sample_mount','Union_box', AT=['- sword_width * 0.20', 'sword_height * 0.3', '- sword_depth * 0.50 -0.0075'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1962,7 +1880,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_mount.mask_string = '0'
     sample_mount.mask_setting = '0'
     sample_mount.number_of_activations = '1'
-    sample_mount.init = '"init"'
     
     # Comp instance Holder_1, placement and parameters
     Holder_1 = instr.add_component('Holder_1','Union_box', AT=['0', '0.0', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -1996,7 +1913,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Holder_1.mask_string = '0'
     Holder_1.mask_setting = '0'
     Holder_1.number_of_activations = '1'
-    Holder_1.init = '"init"'
     
     # Comp instance sample_holder_1_mask_1, placement and parameters
     sample_holder_1_mask_1 = instr.add_component('sample_holder_1_mask_1','Union_box', AT=['0.042', '0.0', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0.0', '0'], ROTATED_RELATIVE='object_center')
@@ -2030,7 +1946,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_1_mask_1.mask_string = '"Holder_1"'
     sample_holder_1_mask_1.mask_setting = '"Any"'
     sample_holder_1_mask_1.number_of_activations = '1'
-    sample_holder_1_mask_1.init = '"init"'
     
     # Comp instance sample_holder_1_mask_2, placement and parameters
     sample_holder_1_mask_2 = instr.add_component('sample_holder_1_mask_2','Union_box', AT=['-0.042', '0.0', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0.0', '0'], ROTATED_RELATIVE='object_center')
@@ -2064,7 +1979,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_1_mask_2.mask_string = '"Holder_1"'
     sample_holder_1_mask_2.mask_setting = '"Any"'
     sample_holder_1_mask_2.number_of_activations = '1'
-    sample_holder_1_mask_2.init = '"init"'
     
     # Comp instance sample_holder_1_mask_3, placement and parameters
     sample_holder_1_mask_3 = instr.add_component('sample_holder_1_mask_3','Union_box', AT=['0', '0.0', '0.0065'], AT_RELATIVE='object_center', ROTATED=['0', '0.0', '0'], ROTATED_RELATIVE='object_center')
@@ -2098,7 +2012,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_1_mask_3.mask_string = '"Holder_1"'
     sample_holder_1_mask_3.mask_setting = '"Any"'
     sample_holder_1_mask_3.number_of_activations = '1'
-    sample_holder_1_mask_3.init = '"init"'
     
     # Comp instance sample_holder_1_mask_4, placement and parameters
     sample_holder_1_mask_4 = instr.add_component('sample_holder_1_mask_4','Union_box', AT=['0', '0.0', '-0.0065'], AT_RELATIVE='object_center', ROTATED=['0', '0.0', '0'], ROTATED_RELATIVE='object_center')
@@ -2132,7 +2045,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_1_mask_4.mask_string = '"Holder_1"'
     sample_holder_1_mask_4.mask_setting = '"Any"'
     sample_holder_1_mask_4.number_of_activations = '1'
-    sample_holder_1_mask_4.init = '"init"'
     
     # Comp instance Holder_2, placement and parameters
     Holder_2 = instr.add_component('Holder_2','Union_box', AT=['0', '0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2166,7 +2078,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Holder_2.mask_string = '0'
     Holder_2.mask_setting = '0'
     Holder_2.number_of_activations = '1'
-    Holder_2.init = '"init"'
     
     # Comp instance sample_holder_2_mask_1, placement and parameters
     sample_holder_2_mask_1 = instr.add_component('sample_holder_2_mask_1','Union_box', AT=['0.036', '0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2200,7 +2111,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_2_mask_1.mask_string = '"Holder_2"'
     sample_holder_2_mask_1.mask_setting = '"Any"'
     sample_holder_2_mask_1.number_of_activations = '1'
-    sample_holder_2_mask_1.init = '"init"'
     
     # Comp instance sample_holder_2_mask_2, placement and parameters
     sample_holder_2_mask_2 = instr.add_component('sample_holder_2_mask_2','Union_box', AT=['-0.036', '0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2234,7 +2144,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_2_mask_2.mask_string = '"Holder_2"'
     sample_holder_2_mask_2.mask_setting = '"Any"'
     sample_holder_2_mask_2.number_of_activations = '1'
-    sample_holder_2_mask_2.init = '"init"'
     
     # Comp instance sample_holder_2_mask_3, placement and parameters
     sample_holder_2_mask_3 = instr.add_component('sample_holder_2_mask_3','Union_box', AT=['0', '0.25', '0.0055'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2268,7 +2177,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_2_mask_3.mask_string = '"Holder_2"'
     sample_holder_2_mask_3.mask_setting = '"Any"'
     sample_holder_2_mask_3.number_of_activations = '1'
-    sample_holder_2_mask_3.init = '"init"'
     
     # Comp instance sample_holder_2_mask_4, placement and parameters
     sample_holder_2_mask_4 = instr.add_component('sample_holder_2_mask_4','Union_box', AT=['0', '0.25', '-0.0055'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2302,7 +2210,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_2_mask_4.mask_string = '"Holder_2"'
     sample_holder_2_mask_4.mask_setting = '"Any"'
     sample_holder_2_mask_4.number_of_activations = '1'
-    sample_holder_2_mask_4.init = '"init"'
     
     # Comp instance Holder_3, placement and parameters
     Holder_3 = instr.add_component('Holder_3','Union_box', AT=['0', '-0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2336,7 +2243,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Holder_3.mask_string = '0'
     Holder_3.mask_setting = '0'
     Holder_3.number_of_activations = '1'
-    Holder_3.init = '"init"'
     
     # Comp instance sample_holder_3_mask_1, placement and parameters
     sample_holder_3_mask_1 = instr.add_component('sample_holder_3_mask_1','Union_box', AT=['0.047', '-0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2370,7 +2276,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_3_mask_1.mask_string = '"Holder_3"'
     sample_holder_3_mask_1.mask_setting = '"Any"'
     sample_holder_3_mask_1.number_of_activations = '1'
-    sample_holder_3_mask_1.init = '"init"'
     
     # Comp instance sample_holder_3_mask_2, placement and parameters
     sample_holder_3_mask_2 = instr.add_component('sample_holder_3_mask_2','Union_box', AT=['-0.047', '-0.25', '0'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2404,7 +2309,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_3_mask_2.mask_string = '"Holder_3"'
     sample_holder_3_mask_2.mask_setting = '"Any"'
     sample_holder_3_mask_2.number_of_activations = '1'
-    sample_holder_3_mask_2.init = '"init"'
     
     # Comp instance sample_holder_3_mask_3, placement and parameters
     sample_holder_3_mask_3 = instr.add_component('sample_holder_3_mask_3','Union_box', AT=['0', '-0.25', '0.007'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2438,7 +2342,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_3_mask_3.mask_string = '"Holder_3"'
     sample_holder_3_mask_3.mask_setting = '"Any"'
     sample_holder_3_mask_3.number_of_activations = '1'
-    sample_holder_3_mask_3.init = '"init"'
     
     # Comp instance sample_holder_3_mask_4, placement and parameters
     sample_holder_3_mask_4 = instr.add_component('sample_holder_3_mask_4','Union_box', AT=['0', '-0.25', '-0.007'], AT_RELATIVE='object_center', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='object_center')
@@ -2472,7 +2375,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     sample_holder_3_mask_4.mask_string = '"Holder_3"'
     sample_holder_3_mask_4.mask_setting = '"Any"'
     sample_holder_3_mask_4.number_of_activations = '1'
-    sample_holder_3_mask_4.init = '"init"'
     
     # Comp instance detector_exit, placement and parameters
     detector_exit = instr.add_component('detector_exit','Union_box', AT=['0', '0', 'pinhole_detector_distance + 0.05'], AT_RELATIVE='graph', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='graph')
@@ -2506,7 +2408,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     detector_exit.mask_string = '0'
     detector_exit.mask_setting = '0'
     detector_exit.number_of_activations = '1'
-    detector_exit.init = '"init"'
     
     # Comp instance Sword, placement and parameters
     Sword = instr.add_component('Sword','Union_master', AT=['0', '0', '0'], AT_RELATIVE='a1', ROTATED=['0', '0', '0'], ROTATED_RELATIVE='a1')
@@ -2524,7 +2425,6 @@ sprintf(spacial_resolution, "Filters/2D_Filter_n600_25m.dat");
     Sword.enable_conditionals = '1'
     Sword.inherit_number_of_scattering_events = '0'
     Sword.weight_ratio_limit = '1e-90'
-    Sword.init = '"init"'
     
     # Comp instance Stop, placement and parameters
     Stop = instr.add_component('Stop','Union_stop', AT=['0', '0', '0'], AT_RELATIVE='a1', ROTATED=['0.0', '0.0', '0.0'], ROTATED_RELATIVE='a1')
